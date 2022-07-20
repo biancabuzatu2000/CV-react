@@ -1,0 +1,20 @@
+@import "../../styles/vars";
+
+.rating-dots {
+  @media only screen and (min-width: 0) {
+    padding-right: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+  span {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: $medium-gray;
+    &.rated {
+      background-color: $dark-gray;
+    }
+  }
+  }
+}
