@@ -30,7 +30,7 @@ export const LeftSide = function () {
     return (
         <section className='left-side'>
             <p className='contact-details'>
-                Call: +4077431660 or
+                Call: +4077431661 or
                 <br />
                 Email: biancabuzatu@gmail.com
             </p>
